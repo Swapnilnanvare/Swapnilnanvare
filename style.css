@@ -1,0 +1,59 @@
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.screen {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.seat {
+    background-color: #444451;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background-color: #6feaf6;
+}
+
+.seat.occupied {
+    background-color: #fff;
+    cursor: not-allowed;
+}
+
+.movie-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#movie {
+    font-size: 16px;
+    padding: 5px;
+}
